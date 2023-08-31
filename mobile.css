@@ -41,10 +41,11 @@
         border-bottom: 1px solid #fff;
     }
     /* =========slide========== */
-    .slider--right {
+    .slide-small {
         display: none;
     }
-    .slider--lert {
+    .slide-big {
+        padding: 5px;
         width: 100%;
     }
 
@@ -56,12 +57,5 @@
         padding: 5px;
     }
     /* ============products========= */
-    .products {
-        flex-wrap: wrap;
-    }
 
-    .cart {
-        width:41.66%;
-        margin-bottom: 15px;
-    }
 }
