@@ -136,6 +136,31 @@ ul {
     border-radius: 10px;
     background-color: #fff;
     cursor: pointer;
+    transition: all 1s ease-out;
+}
+
+.btn {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.1);
+    padding: 0 20px;
+    font-size: 30px;
+    width: 5px;
+    top: 32%;
+    color: red;
+    height: 10%;
+    border: none;
+    outline: none;
+}
+.btn:hover {
+    background: rgba(0, 0, 0, 0.3);
+}
+.next {
+    right: 0;
+    border-radius: 100px 0 0 100px;
+    text-align: left;
+}
+.prew {
+    border-radius: 0 100px 100px 0;
 }
 
 /* ====================== */
@@ -147,7 +172,7 @@ ul {
 
 .cart img {
     width: 100%;
-    transition: transform .2s;
+    transition:  .5s;
 }
 
 .cart--title {
