@@ -3,44 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
     <title>Document</title>
+
+    <style>
+        .box {
+            display: flex;
+        }
+        .box div{
+            background-color: red;
+            height: 40px;
+            width: 40px;
+            margin: 10px;
+            position: relative;
+            animation: move  3s;
+        }
+
+        @keyframes move {
+            from{
+                left: 40px;
+                top: 0;
+                width: 60px;
+            }
+            to {
+                left: 0;
+                top: 0;
+            }
+        };
+
+    </style>
 </head>
-<style>
-    .slide-container {
-        position: relative;
-        overflow-x: hidden;
-        height: 500px;
-    }
-    .slide-width {
-        position: absolute;
-        left: 0;
-        top: 0;
-        display: flex;
-        justify-content: start;
-        align-items: start;
-    }
-    .card {
-        width: 300px;
-        height: 200px;
-        background-color: aqua;
-        margin: 10px;
-    }
-</style>
 <body>
-    
-    <div class="slide-container">
-        <div class="slide-width">
-            <div class="card">1</div>
-            <div class="card">2</div>
-            <div class="card">3</div>
-            <div class="card">4</div>
-            <div class="card">5</div>
-            <div class="card">6</div>
-            <div class="card">7</div>
-            <div class="card">8</div>
-            <div class="card">9</div>
-            <div class="card">10</div>
-        </div>
+    <div class="box">
+        <div>1</div>
+        <div>2</div>
+
     </div>
+    <script>
+
+    </script>
 </body>
 </html>
